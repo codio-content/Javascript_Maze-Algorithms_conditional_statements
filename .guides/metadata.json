@@ -1,0 +1,150 @@
+{
+ "sections": [
+  {
+   "id": "28fc9db8-2056-9458-d6b5-e895e917b1de",
+   "title": "Conditional Statements",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Conditional-Statements-28fc.md"
+  },
+  {
+   "id": "61842fa7-3e96-f590-f517-dd7098de582",
+   "title": "Moving the player",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Moving-the-player-6184.md"
+  },
+  {
+   "id": "7c457c5d-26-968b-b1c4-23a2cc84285",
+   "title": "Keyboard Event Handler",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Keyboard-Event-Handler-7c45.md"
+  },
+  {
+   "id": "c6ea9901-3b27-3eda-adf2-fb464beef965",
+   "title": "If explained",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/If-explained-c6ea.md"
+  },
+  {
+   "id": "34eed8fd-7945-3558-1d2d-e603af5073a7",
+   "title": "Why == ?",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Why------34ee.md"
+  },
+  {
+   "id": "cc64408c-3c63-164c-6d45-d7c885ff88ef",
+   "title": "Completing the handler",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Completing-the-handler-cc64.md"
+  },
+  {
+   "id": "2eb2da15-7fde-e163-db7-2ca4a3e66ec",
+   "title": "Syntax Errors 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Syntax-Errors-1-2eb2.md"
+  },
+  {
+   "id": "de18feb8-29-8db2-8e87-4efd45eca923",
+   "title": "Syntax Errors 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Syntax-Errors-2-de18.md"
+  },
+  {
+   "id": "ed4e6a29-14e7-4277-1ee2-2365dbe52422",
+   "title": "Otherwise / Else",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Otherwise---Else-ed4e.md"
+  },
+  {
+   "id": "16d4d9df-9e19-ae-a43-bafab63e7614",
+   "title": "Else If",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Else-If-16d4.md"
+  },
+  {
+   "id": "24b7dd36-db4d-85f1-afe3-ca6338ed7b84",
+   "title": "FInish the else ifs off",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/FInish-the-else-ifs-off-24b7.md"
+  },
+  {
+   "id": "e3383331-a391-fc63-b189-44d17ee5d73",
+   "title": "Better scoring",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Better-scoring-e338.md"
+  },
+  {
+   "id": "40dd63f0-a2f8-f20e-2d9-d1d6aebcb682",
+   "title": "The code for better scoring",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-code-for-better-scoring-40dd.md"
+  },
+  {
+   "id": "f6db20c7-c36c-896c-ca2b-c6481a8e7391",
+   "title": "Collision Message",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Collision-Message-f6db.md"
+  },
+  {
+   "id": "df8b300b-e43a-fa23-4bd3-8b7ba5b61e93",
+   "title": "Using variables instead",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Using-variables-instead-df8b.md"
+  },
+  {
+   "id": "256497a1-3777-88d9-3280-d8a6893881aa",
+   "title": "Really simple way",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Really-simple-way-2564.md"
+  },
+  {
+   "id": "c2c89643-1860-e297-ad96-d8ca928dc23a",
+   "title": "test : simple if",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/test---simple-if-c2c8.md"
+  },
+  {
+   "id": "78c1c7c6-1c4c-279e-41ad-913ce1d98932",
+   "title": ">, >=, <, <=, !=",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Greater-than-78c1.md"
+  }
+ ],
+ "theme": "charcoal",
+ "scripts": []
+}
