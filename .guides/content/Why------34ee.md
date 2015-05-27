@@ -1,7 +1,7 @@
 ```javascript
-if (keyCode == 123) {
-  movePlayer(UP)
-}
+if ( keyCode == 'LEFT' ) {
+  player.moveLeft()
+} 
 ```
 
 You are probably asking yourself why we have to use `==` and not just `=`.

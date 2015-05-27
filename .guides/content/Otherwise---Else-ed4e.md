@@ -5,7 +5,7 @@ We are now going to deal with the case "if a condition is true, then do somethin
 This is actually quite simple. Take a look at the code on the left and you should be able to see what is happening. 
 
 ```javascript
-if(condition is true {
+if(condition is true) {
   do something
 }
 else {
@@ -13,8 +13,10 @@ else {
 }
 ```
 
-In our code, we are actually saying "if the key pressed has a key code 123 then move to the right **otherwise** display a message saying 'the right arrow key was not pressed' ".
+In our code, we are actually saying "if the left arrow key is then move to the left **otherwise** move to the right ".
 
 Notice that the `else` statement comes after the end of the `if () {  }` code block.
 
-Try this out now by pressing the right arrow key or another key and see what happens.
+## Play
+Try this out now by pressing the right arrow key or another key (any key on the keyboard in fact) and see what happens.
+

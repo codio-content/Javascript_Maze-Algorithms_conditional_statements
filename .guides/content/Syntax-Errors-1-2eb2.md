@@ -3,5 +3,7 @@ In the code on the left, we have some if statements which have been badly writte
 
 Your job is to fix the code so it runs properly without a syntax error.
 
+If you've fixed it, you should be able to move the player to the left (other directions won't work).
+
 {check It!! | custom}(test-fixit-if)
 |||
