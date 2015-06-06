@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "3-cell-tree",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Conditional-Statements-28fc.md"
@@ -28,7 +28,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Moving-the-player-6184.md"
@@ -52,7 +52,7 @@
      "action": "open"
     }
    ],
-   "layout": "3-cell-tree",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Keyboard-Event-Handler-7c45.md"
@@ -61,6 +61,7 @@
    "id": "c6ea9901-3b27-3eda-adf2-fb464beef965",
    "title": "If explained",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/If-explained-c6ea.md"
@@ -239,7 +240,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/FInish-the-else-ifs-off-24b7.md"
+   "content-file": ".guides/content/Finish-the-else-ifs-off-24b7.md"
   },
   {
    "id": "f6db20c7-c36c-896c-ca2b-c6481a8e7391",
@@ -344,6 +345,14 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Another-challenge-7ec3.md"
+  },
+  {
+   "id": "ccfd6a56-6d59-6f7f-c0a7-906e5844acf4",
+   "title": "That's all folks!",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/That-s-all-folks--ccfd.md"
   }
  ],
  "theme": "paper",

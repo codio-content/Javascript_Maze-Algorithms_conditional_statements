@@ -15,8 +15,7 @@ if (type == 'wall') {
 }
 ```
 
-{check it!! | custom}(test-collision-entity)
-|||
+Here are the possible values that `type` can have.
 
 | Types |
 | :- |
@@ -24,6 +23,10 @@ if (type == 'wall') {
 | monster |
 | energy |
 | goal |
+
+{check it!! | custom}(test-collision-entity)
+|||
+
 
 |||guidance
 ## Solution

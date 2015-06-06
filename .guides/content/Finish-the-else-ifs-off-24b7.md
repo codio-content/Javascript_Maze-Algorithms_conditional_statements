@@ -3,8 +3,6 @@ Your job is to complete the code on the left by inserting the missing `else if` 
 
 If none of the arrow keys were pressed, then show a message.
 
-Use copy and paste, don't type all your code from scratch!
-
 {check it!! | custom}(test-elseif)
 
 |||
