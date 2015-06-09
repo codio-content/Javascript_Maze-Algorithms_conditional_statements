@@ -9,7 +9,7 @@
      "action": "close"
     }
    ],
-   "layout": "3-cell",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Conditional-Statements-28fc.md"

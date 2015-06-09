@@ -7,7 +7,7 @@ If none of the arrow keys were pressed, then show a message.
 
 |||
 
-||guidance
+|||guidance
 ## Solution
 
 ```javascript
