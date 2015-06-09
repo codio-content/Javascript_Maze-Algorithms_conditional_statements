@@ -1,6 +1,6 @@
 |||challenge
 ##  Less and Greater
-Inside the turnTaken() event handler, write some code that checks the `energy` variable as follows
+Inside the `turnTaken()` event handler, write some code that checks the `energy` variable as follows
 
 - "if energy is less than 10, show the message "Low Energy".
 - "if energy is greater than or equal to 30 show the message "Lots of energy".
