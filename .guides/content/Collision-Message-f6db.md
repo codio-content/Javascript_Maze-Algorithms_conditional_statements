@@ -24,7 +24,7 @@ Here are the possible values that `type` can have.
 | energy |
 | goal |
 
-{check it!! | custom}(test-collision-entity)
+{check it!! | custom}(ch-5)
 |||
 
 

@@ -5,5 +5,18 @@ Your job is to fix the code so it runs properly without a syntax error.
 
 If you've fixed it, you should be able to move the player to the left (other directions won't work).
 
-{check It!! | custom}(test-fixit-if)
+{check It!! | custom}(ch-2)
 |||
+
+|||guidance
+## Solution
+
+```javascript
+function keyPressedEvent(keyCode) {
+
+  if ( keyCode == 'LEFT' ) {
+    player.moveLeft()
+  } 
+ 
+}
+```

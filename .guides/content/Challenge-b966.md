@@ -7,7 +7,7 @@ Inside the `turnTaken()` event handler, write some code that checks
 
 Test it out in the game first and check you get the right message when the energy is 10 or more and also when less than 10.
 
-{check it!! | custom}(test-neq)
+{check it!! | custom}(ch-7)
 |||
 
 |||guidance
