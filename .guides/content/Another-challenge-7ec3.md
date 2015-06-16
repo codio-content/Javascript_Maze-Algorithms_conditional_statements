@@ -8,7 +8,7 @@ Inside the `turnTaken()` event handler, write some code that checks the `energy`
 
 You need to test it out in the game first and make sure you get all the messages.
 
-{check it!! | custom}(test-neq)
+{check it!! | custom}(ch-8)
 |||
 
 

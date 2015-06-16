@@ -7,7 +7,7 @@ Use copy and paste rather than typing out the new code from scratch.
 
 Below is the table of keycodes you can refer to.
 
-{check it!! | custom}(test-kb-1)
+{check it!! | custom}(ch-1)
 
 |||
 

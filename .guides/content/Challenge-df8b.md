@@ -7,6 +7,8 @@ We want you to write a message saying "You hit : XXXXX" where XXXXX is the thing
 
 **Hint** : it's actually very easy and involves one line of code and involves a string.
 
+{check it!! | custom}(ch-6)
+
 |||
 
 
