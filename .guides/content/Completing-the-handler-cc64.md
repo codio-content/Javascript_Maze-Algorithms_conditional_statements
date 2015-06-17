@@ -22,6 +22,8 @@ Below is the table of keycodes you can refer to.
 ## Solution
 
 ```javascript
+function keyPressedEvent(keyCode) {
+
   if ( keyCode == 'LEFT' ) {
     player.moveLeft()
   } 
@@ -33,7 +35,9 @@ Below is the table of keycodes you can refer to.
   } 
   if ( keyCode == 'DOWN' ) {
     player.moveDown()
-  } 
+  }
+  
+}
 ```
 
 |||
