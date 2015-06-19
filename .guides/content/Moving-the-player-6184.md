@@ -1,4 +1,4 @@
-A really nice way of introducing if statements is to show how you can control the movement of the player yourself.
+A really nice way of introducing `if` statements is to show how you can control the movement of the player yourself.
 
 Take a look at the flowchart on the left. You can see the logic used here to decide what action to take.
 

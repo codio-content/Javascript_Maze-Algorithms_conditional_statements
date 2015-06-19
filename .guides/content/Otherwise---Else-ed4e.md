@@ -13,7 +13,7 @@ else {
 }
 ```
 
-In our code, we are actually saying "if the left arrow key is then move to the left **otherwise** move to the right ".
+In our code, we are actually saying "if the left arrow key is pressed then move to the left **otherwise** move to the right ".
 
 Notice that the `else` statement comes after the end of the `if () {  }` code block.
 

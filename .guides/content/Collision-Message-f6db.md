@@ -1,7 +1,7 @@
 |||challenge
 In this challenge, we have provided you with an event handler `collisionEvent()`. It will get called whenever a collision is detected.
 
-Your job is use `if` and `else if` statements to write a message to the message bar saying what collision took place.
+Your job is to use `if` and `else if` statements to write a message to the message bar saying what collision took place.
 
 Notice the parameter `type` being passed to the handler. This contains a string value, depending on what you just hit. You can see below the possible string values that `type` can contain.
 
