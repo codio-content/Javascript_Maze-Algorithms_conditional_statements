@@ -3,7 +3,7 @@ In this challenge, we have provided you with an event handler `collisionEvent()`
 
 Your job is use `if` and `else if` statements to write a message to the message bar saying what collision took place.
 
-Notice the parameter `type` being passed to the handler. This contains a string value, depending on what you just hit. You can see the possible string values that `type` can contain.
+Notice the parameter `type` being passed to the handler. This contains a string value, depending on what you just hit. You can see below the possible string values that `type` can contain.
 
 You can treat this as if it were a variable.
 

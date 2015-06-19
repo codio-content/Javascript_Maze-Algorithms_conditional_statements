@@ -6,29 +6,15 @@ Make sure that your player moves in all directions. Just getting rid of the synt
 {check It!! | custom}(ch-3)
 |||
 
+
 |||guidance
 ## Solution
+
 There are two things wrong with this code.
 
 Firstly, there is a `)` missing after `LEFT`
 
-```javascript
-if ( keyCode == 'LEFT'  {
-  player.moveLeft()
-} 
-```
-
 Secondly, we have `=` instead of `==`
-```javascript
-if ( keyCode = 'RIGHT' ) {
-  player.moveRight()
-} 
-```
-
-|||
-
-|||guidance
-## Solution
 
 ```javascript
 function keyPressedEvent(keyCode) {
@@ -44,7 +30,7 @@ function keyPressedEvent(keyCode) {
   } 
   if ( keyCode == 'DOWN' ) {
     player.moveDown() 
-  } 
- 
+  }
+  
 }
 ```
