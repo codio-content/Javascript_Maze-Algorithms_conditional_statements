@@ -9,7 +9,7 @@ This event handler gets called whenever any key is pressed. We are looking to se
 Notice that you can only move the player to the left. We will deal with this in a moment.
 
 ## keyCode
-If you look at the following statement, you can see 
+Let's look at the following statement
 
 ```javascript
 if ( keyCode == 'LEFT' ) {
@@ -17,4 +17,13 @@ if ( keyCode == 'LEFT' ) {
 } 
 ```
 
+`keyCode` is a parameter that is passed into our event handler. It contains a string that indicates which key has been pressed by the user. It has the following values
 
+| Key | keyCode |
+|-|:-:|
+| Up Arrow | UP |
+| Down Arrow | DOWN |
+| Left Arrow | LEFT |
+| Right Arrow | RIGHT |
+
+So our code is saying "if the `keyCode` of the key pressed is `LEFT` then move the player to the left.

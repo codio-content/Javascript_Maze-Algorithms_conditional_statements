@@ -11,7 +11,7 @@ You can treat this as if it were a variable.
 
 ```javascript
 if (type == 'wall') {
-  showMessage('You collided with a wall')
+  showMessage('You hit a wall')
 }
 ```
 

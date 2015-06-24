@@ -1,5 +1,5 @@
 |||challenge
-Your job is to complete the code on the left by inserting the missing `else if` statements and code to handle the arrow up and arrow down keys.
+Your job is to complete the code on the left by inserting the missing `else if` statements and code to handle the up, down and right arrow keys.
 
 If none of the arrow keys were pressed, then show a message.
 

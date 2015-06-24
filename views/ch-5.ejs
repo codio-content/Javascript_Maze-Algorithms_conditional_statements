@@ -15,6 +15,7 @@
         });
 
         playerHitEnergy(function(object) {
+          playSound('energy');          
           energy += object.energy;
           removeObject(object);
         });
