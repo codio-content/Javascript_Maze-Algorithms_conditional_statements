@@ -5,18 +5,18 @@ Complete the keyboard event handler by making sure all 4 arrow keys are properly
 
 Use copy and paste rather than typing out the new code from scratch.
 
-Below is the table of keycodes you can refer to.
+Below is a table of keys, their keycodes and the corresponding actions you should call.
 
 {check it!! | custom}(ch-1)
 
 |||
 
-| Key | keyCode |
-|-|:-:|
-| Up Arrow | UP |
-| Down Arrow | DOWN |
-| Left Arrow | LEFT |
-| Right Arrow | RIGHT |
+| Key | keyCode | Action
+|-|:-:|:-:|
+| Up Arrow | UP | player.moveUp() |
+| Down Arrow | DOWN | player.moveDown() |
+| Left Arrow | LEFT | player.moveLeft() |
+| Right Arrow | RIGHT | player.moveRight() |
 
 |||guidance
 ## Solution
