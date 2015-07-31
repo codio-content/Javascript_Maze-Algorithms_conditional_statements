@@ -1,10 +1,11 @@
+var fs = require('fs');
 
 keyPressedEvent  = null;
+global.player = {};
 
-$.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_=' + Date.now())
-.done(function (script, status) {
-  
-  createRandomMaze();
+try {
+  var data = fs.readFileSync('/home/codio/workspace/public/js/ch-4.js', 'utf8');
+  eval(data);
     
   var _left = false;
   var _right = false;
@@ -14,7 +15,7 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     
   if(typeof keyPressedEvent  == 'function') {
 
-    window.showMessage = function (val) {
+    global.showMessage = function (val) {
       _else = true;
     }        
     
@@ -26,7 +27,8 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     keyPressedEvent('LEFT');
     
     if(!_left || _else) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }   
     
 
@@ -37,7 +39,8 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     keyPressedEvent('RIGHT');
     
     if(!_right || _else) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }   
     
 
@@ -48,7 +51,8 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     keyPressedEvent('UP');
 
     if(!_up || _else) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }   
     
     
@@ -59,7 +63,8 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     keyPressedEvent('DOWN');
 
     if(!_down || _else) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }   
     
     _left = false;
@@ -70,17 +75,23 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     keyPressedEvent('C');
     
     if(_left || _right || _up || _down || !_else) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }   
   }
   else {
-    return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+    process.stdout.write('Not quite right, try again!');  
+    process.exit(1);
   }
   
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');    
+  process.stdout.write('Well done!');  
+  process.exit(0);
+  
+}
+catch(e) {
+//   console.log(e);
+}
 
-})
-.fail(function (jqxhr, settings, exception) {
-  console.log(exception);
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.INVALID, exception.message); 
-});
+process.stdout.write('Not quite right, try again!');  
+process.exit(1);
+  

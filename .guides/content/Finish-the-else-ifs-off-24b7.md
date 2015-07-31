@@ -1,11 +1,5 @@
-|||challenge
-Your job is to complete the code on the left by inserting the missing `else if` statements and code to handle the up, down and right arrow keys.
 
-If none of the arrow keys were pressed, then show a message.
-
-{check it!! | custom}(ch-4)
-
-|||
+{Check It!|assessment}(test-3935566441)
 
 |||guidance
 ## Solution
