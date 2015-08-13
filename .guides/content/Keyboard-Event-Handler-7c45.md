@@ -20,7 +20,7 @@ if ( keyCode == 'LEFT' ) {
 `keyCode` is a parameter that is passed into our event handler. It contains a string that indicates which key has been pressed by the user. It has the following values
 
 | Key | keyCode |
-|-|:-:|
+|-|-|
 | Up Arrow | UP |
 | Down Arrow | DOWN |
 | Left Arrow | LEFT |

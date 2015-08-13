@@ -3,7 +3,7 @@ Now it's your turn to make sure that the player moves properly when all the arro
 {Check It!|assessment}(test-1697497471)
 
 | Key | keyCode | Action
-|-|:-:|:-:|
+|-|-|-|
 | Up Arrow | UP | player.moveUp() |
 | Down Arrow | DOWN | player.moveDown() |
 | Left Arrow | LEFT | player.moveLeft() |
